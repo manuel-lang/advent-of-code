@@ -1,6 +1,7 @@
 import re
 from enum import Enum
-from helpers import read_input
+from adventofcode.helpers import read_input
+from rich import print
 
 
 class NumberEnum(Enum):
@@ -17,7 +18,7 @@ class NumberEnum(Enum):
 
 
 def main() -> None:
-    lines = read_input()
+    lines = read_input(file_path="example_data/day1.txt")
     calibration_values: list[int] = []
     calibration_values_with_text: list[int] = []
     for line in lines:
