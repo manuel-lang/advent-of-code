@@ -7,4 +7,4 @@ This repository contains my implementation for the daily quizzes.
 ## Running the code (with example data)
 
 - Create a poetry shell and install `poetry shell && poetry install`
-- Run script for specific day `poetry run <day>`
+- Run script for specific day `poetry run aoc <day>`
